@@ -37,8 +37,8 @@ window.VCSKY.setConfig = function (cfg = {}) {
 
 
 // Base URLs
-const replaceFetch = (str) => str.replace("https://cdn.dos.zone/vcsky/", "vcsky/")
-const replaceBR = "https://cdn.nbcnm.cn/vcbr/"
+const replaceFetch = (str) => str.replace("https://cdn.dos.zone/vcsky/", "https://gtavc.aiys.net/vcsky/")
+const replaceBR = "https://gtavc.aiys.net/vcbr/"
 // const replaceBR = "/gtadata/vcsky/"
 
 // Settings that can be configured via URL or UI
