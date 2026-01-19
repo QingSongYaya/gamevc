@@ -76,11 +76,11 @@ window.t = function (key) {
 // Function to update game data files based on language
 function updateGameDataForLanguage(lang) {
     if (lang === 'ru') {
-        data_content = `${replaceBR}vc-sky-ru-v6.data.br`;
-        wasm_content = `${replaceBR}vc-sky-ru-v6.wasm.br`;
+        data_content = `${replaceBR}vc-sky-ru-v6.data`;
+        wasm_content = `${replaceBR}vc-sky-ru-v6.wasm`;
     } else {
-        data_content = `${replaceBR}vc-sky-en-v6.data.br`;
-        wasm_content = `${replaceBR}vc-sky-en-v6.wasm.br`;
+        data_content = `${replaceBR}vc-sky-en-v6.data`;
+        wasm_content = `${replaceBR}vc-sky-en-v6.wasm`;
     }
 }
 
